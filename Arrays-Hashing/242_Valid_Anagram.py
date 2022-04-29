@@ -24,7 +24,7 @@ def isAnagram2(): #oneliner code
     return Counter(s)==Counter(t)
 
 print(isAnagram2())
-        
+
 
 
 

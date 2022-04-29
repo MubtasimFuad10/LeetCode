@@ -5,7 +5,7 @@ from itertools import count
 def groupAna():
     s=input()
     strs=s.split()
-    res={} #mapping charCount to list of Anagrams
+    res=defaultdict(list) #mapping charCount to list of Anagrams
     
     for string in strs:
         count=[0]*26 #a..z
